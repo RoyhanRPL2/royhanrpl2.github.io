@@ -1,5 +1,15 @@
 
 import styles from "./project.module.css";
+import React from "react";
+import Charizard from "/public/images/Charizard-X.png";
+import torterra from "/public/images/Torterra.png";
+import arcanine from "/public/images/Arcanine.png";
+import blastoise from "/public/images/Blastoise.png";
+import calendar from "/public/svg/calendar.svg";
+import figma from "/public/svg/figma.svg";
+import github from "/public/svg/github.svg";
+import browser from "/public/svg/browser.svg";
+
 
 function Project() {
   return (
@@ -16,13 +26,13 @@ function Project() {
         <main>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src="/images/Charizard X.png" alt="Charizard-X.png" border="0" />
+              <img src={Charizard} alt="Charizard-X.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
                 <h2>SomeShine</h2>
                 <div className={styles["project-date"]}>
-                  <img src="/svg/calendar.svg" alt="calendar-icon.svg" />
+                  <img src={calendar} alt="calendar-icon.svg" />
                   <p>September 2023</p>
                 </div>
               </div>
@@ -34,32 +44,32 @@ function Project() {
                   href="https://www.figma.com/file/aXyKDLmAkE5TshjlA9iBfZ/Sancode?type=design&node-id=0%3A1&mode=design&t=uo47AZQc1rdt9lMT-1"
                   target="_blank"
                 >
-                  <img src="/svg/figma.svg" alt="figma-icon.svg" aria-label="Explore the figma project" />
+                  <img src={figma} alt="figma-icon.svg" aria-label="Explore the figma project" />
                 </a>
                 <a
                   href="https://github.com/RoyhanRPL2/SomeShine"
                   target="_blank"
                 >
-                  <img src="/svg/github.svg" alt="github-icon.svg" aria-label="Go to the github repository"/>
+                  <img src={github} alt="github-icon.svg" aria-label="Go to the github repository"/>
                 </a>
                 <a
                   href="https://royhanrpl2.github.io/SomeShine/index.html"
                   target="_blank"
                 >
-                  <img src="/svg/browser.svg" alt="browser-icon.svg" aria-label="Go to the real website" />
+                  <img src={browser} alt="browser-icon.svg" aria-label="Go to the real website" />
                 </a>
               </div>
             </div>
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src="/images/Torterra.png" alt="torterra.png" border="0" />
+              <img src={torterra} alt="torterra.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
                 <h2>NorthExpo</h2>
                 <div className={styles["project-date"]}>
-                  <img src="svg/calendar.svg" alt="calendar-icon.svg" />
+                  <img src={calendar} alt="calendar-icon.svg" />
                   <p>March 2023</p>
                 </div>
               </div>
@@ -71,32 +81,32 @@ function Project() {
                   href="https://www.figma.com/file/aXyKDLmAkE5TshjlA9iBfZ/Sancode?type=design&node-id=0%3A1&mode=design&t=uo47AZQc1rdt9lMT-1"
                   target="_blank"
                 >
-                  <img src="/svg/figma.svg" alt="figma-icon.svg" aria-label="Explore the figma project" />
+                  <img src={figma} alt="figma-icon.svg" aria-label="Explore the figma project" />
                 </a>
                 <a
                   href="https://github.com/RoyhanRPL2/NorthExpo-project"
                   target="_blank"
                 >
-                  <img src="/svg/github.svg" alt="github-icon.svg" aria-label="Go to the github repository" />
+                  <img src={github} alt="github-icon.svg" aria-label="Go to the github repository" />
                 </a>
                 <a
                   href="https://northexpokudus.com"
                   target="_blank"
                 >
-                  <img src="/svg/browser.svg" alt="browser-icon.svg" aria-label="Go to the real website" />
+                  <img src={browser} alt="browser-icon.svg" aria-label="Go to the real website" />
                 </a>
               </div>
             </div>
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src="images/Arcanine.png" alt="Arcanine.png" border="0" />
+              <img src={arcanine} alt="Arcanine.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
                 <h2>Rora Cake</h2>
                 <div className={styles["project-date"]}>
-                  <img src="svg/calendar.svg" alt="calendar-icon.svg" />
+                  <img src={calendar} alt="calendar-icon.svg" />
                   <p>March 2021</p>
                 </div>
               </div>
@@ -108,20 +118,20 @@ function Project() {
                   href="https://www.figma.com/file/aztw7rvrJ4quax17kNwkN0/Landing-Page-Rora-Cake?type=design&node-id=5%3A2&mode=design&t=92EMVgRPohS4rf1e-1"
                   target="_blank"
                 >
-                  <img src="/svg/figma.svg" alt="figma-icon.svg" aria-label="Explore the figma project" />
+                  <img src={figma} alt="figma-icon.svg" aria-label="Explore the figma project" />
                 </a>
               </div>
             </div>
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src="images/Blastoise.png" alt="Blastoise.png" border="0" />
+              <img src={blastoise} alt="Blastoise.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
                 <h2>Sancode</h2>
                 <div className={styles["project-date"]}>
-                  <img src="svg/calendar.svg" alt="calendar-icon.svg" />
+                  <img src={calendar} alt="calendar-icon.svg" />
                   <p>January 2022</p>
                 </div>
               </div>
@@ -133,7 +143,7 @@ function Project() {
                   href="https://www.figma.com/file/aXyKDLmAkE5TshjlA9iBfZ/Sancode?type=design&node-id=0%3A1&mode=design&t=uo47AZQc1rdt9lMT-1"
                   target="_blank"
                 >
-                  <img src="/svg/figma.svg" alt="figma-icon.svg" aria-label="Explore the figma project" />
+                  <img src={figma} alt="figma-icon.svg" aria-label="Explore the figma project" />
                 </a>
               </div>
             </div>

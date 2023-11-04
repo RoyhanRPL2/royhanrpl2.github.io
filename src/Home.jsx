@@ -1,11 +1,16 @@
 import React from "react";
-import ProfileImg from "../src/assets/Profile-Picture.jpeg";
+import ProfileImg from "/src/assets/Profile-Picture.jpeg";
 import "./home.css";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import Layout from "./layout";
 import Project from "./project";
 import Cta from "../src/cta";
 import styles from "../src/components/header/header.module.css";
+import html from "/public/svg/html.svg";
+import css from "/public/svg/css.svg";
+import javascript from "/public/svg/javascript.svg";
+import vue from "/public/svg/vue.svg";
+import reactjs from "/public/svg/reactjs.svg";
 
 function Home() {
   return (
@@ -46,11 +51,11 @@ function Home() {
             <div className="skill">
               <h2>skills</h2>
               <div className="skill-list">
-                <img src="/svg/html.svg" alt="Html image" />
-                <img src="/svg/css.svg" alt="CSS image" />
-                <img src="/svg/javascript.svg" alt="Javascript image" />
-                <img src="/svg/vue.svg" alt="Vue image" />
-                <img src="/svg/reactjs.svg" alt="React image" />
+                <img src={html} alt="Html image" />
+                <img src={css}alt="CSS image" />
+                <img src={javascript} alt="Javascript image" />
+                <img src={vue} alt="Vue image" />
+                <img src={reactjs} alt="React image" />
               </div>
             </div>
             <div className="section">
