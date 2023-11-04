@@ -3,7 +3,7 @@ import ProfileImg from "../src/assets/Profile-Picture.jpeg";
 import "./home.css";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import Layout from "./layout";
-import Project from "./Project";
+import Project from "./project";
 import Cta from "../src/cta";
 import styles from "../src/components/header/header.module.css";
 
