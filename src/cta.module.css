@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contact-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.75rem;
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  
+  #contact-wrap .contact-title {
+    font-size: calc(1.775rem + 6.3vw);
+    font-weight: 700;
+    line-height: calc(1.775rem + 6.3vw);
+    text-transform: uppercase;
+  }
+  
+  #contact-wrap .contact-subtitle {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+  
+  #contact-wrap .contact-emoji {
+    display: block;
+    margin-bottom: 0.8em;
+    margin-top: 1em;
+    text-align: center;
+    font-size: calc(1.405rem + 1.86vw);
+    font-weight: 700;
+    line-height: calc(1.405rem + 1.86vw);
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  #contact-wrap .contact-cta-wrap {
+    width: 100%;
+    margin-bottom: 5em;
+    margin-top: 3em;
+  }
+  
+  #contact-wrap .contact-cta-item {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #contact-wrap .contact-cta-item:last-child {
+    border-top: 0;
+  }
+  
+  #contact-wrap .contact-cta-item-title {
+    text-decoration: none;
+    font-size: calc(1rem + 1.86vw);
+    line-height: calc(1.405rem + 1.86vw);
+  }
+  
+  #contact-wrap .contact-cta-item-title span {
+    margin-right: 7px;
+  }
+  
+  #contact-wrap .contact-cta-item-title a {
+    color: #000;
+    font-weight: 800;
+  }
+  
+  @media screen and (max-width: 768px) {
+      #contact-wrap .contact-title {
+          font-size: calc(1.775rem + 3.3vw);
+          line-height: calc(1.775rem + 3.3vw);
+      }
+      
+      #contact-wrap .contact-emoji {
+          font-size: calc(1.405rem + 1.86vw);
+          line-height: calc(1.405rem + 1.86vw);
+      }
+      
+      #contact-wrap .contact-cta-item-title {
+          font-size: calc(1rem + 1.86vw);
+          line-height: calc(1.405rem + 1.86vw);
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+      #contact-wrap .contact-title {
+          font-size: calc(2.775rem + 2.3vw);
+          line-height: calc(2.775rem + 2.3vw);
+      }
+      
+      #contact-wrap .contact-emoji {
+          font-size: calc(1.405rem + 1.86vw);
+          line-height: calc(1.405rem + 1.86vw);
+      }
+      
+      #contact-wrap .contact-cta-item-title {
+          font-size: calc(0.8rem + 1.86vw);
+          line-height: calc(0.8rem + 1.86vw);
+      }
+  }
+  
