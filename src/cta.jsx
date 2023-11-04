@@ -15,20 +15,20 @@ function Blog() {
         </div>
         <div className={styles["contact-cta-wrap"]}>
           <div className={styles["contact-cta-item"]}>
-            <h3 className={styles["contact-cta-item-title"]}>
+            <h2 className={styles["contact-cta-item-title"]}>
               <span>✉️</span>
               <a href="mailto:royhanbumi227@gmail.com">
                 royhanbumi227@gmail.com
               </a>
-            </h3>
+            </h2>
           </div>
           <div className={styles["contact-cta-item"]}>
-            <h3 className={styles["contact-cta-item-title"]}>
+            <h2 className={styles["contact-cta-item-title"]}>
               <span>📱</span>
               <a href="tel:+628875175662">
                 +62 887 5175 662
               </a>
-            </h3>
+            </h2>
           </div>
         </div>
       </div>
