@@ -71,6 +71,11 @@ div {
   gap: 0.5rem;
 }
 
+.project-date img {
+  width: 20px;
+  height: 20px;
+}
+
 .project-date p {
   font-size: 16px;
 }

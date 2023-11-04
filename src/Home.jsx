@@ -62,7 +62,7 @@ function Home() {
           </div>
           <div className="hero-img-wrapper">
             <div className="img-container">
-              <img src={ProfileImg} loading="lazy" alt="profile picture" />
+              <img src={ProfileImg} alt="profile picture" />
             </div>
           </div>
         </main>
