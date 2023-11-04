@@ -46,11 +46,11 @@ function Home() {
             <div className="skill">
               <h2>skills</h2>
               <div className="skill-list">
-                <img src="/svg/html.svg" />
-                <img src="/svg/css.svg" />
-                <img src="/svg/javascript.svg" />
-                <img src="/svg/vue.svg" />
-                <img src="/svg/reactjs.svg" />
+                <img src="/svg/html.svg" alt="Html image" />
+                <img src="/svg/css.svg" alt="CSS image" />
+                <img src="/svg/javascript.svg" alt="Javascript image" />
+                <img src="/svg/vue.svg" alt="Vue image" />
+                <img src="/svg/reactjs.svg" alt="React image" />
               </div>
             </div>
             <div className="section">
@@ -62,7 +62,7 @@ function Home() {
           </div>
           <div className="hero-img-wrapper">
             <div className="img-container">
-              <img src={ProfileImg} />
+              <img src={ProfileImg} loading="lazy" alt="profile picture" />
             </div>
           </div>
         </main>
