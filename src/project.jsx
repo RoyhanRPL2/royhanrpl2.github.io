@@ -1,14 +1,14 @@
 
 import styles from "./project.module.css";
 import React from "react";
-import Charizard from "/public/images/Charizard-X.png";
-import torterra from "/public/images/Torterra.png";
-import arcanine from "/public/images/Arcanine.png";
-import blastoise from "/public/images/Blastoise.png";
-import calendar from "/public/svg/calendar.svg";
-import figma from "/public/svg/figma.svg";
-import github from "/public/svg/github.svg";
-import browser from "/public/svg/browser.svg";
+import Charizard from "/images/Charizard-X.png";
+import torterra from "/images/Torterra.png";
+import arcanine from "/images/Arcanine.png";
+import blastoise from "/images/Blastoise.png";
+import calendar from "/svg/calendar.svg";
+import figma from "/svg/figma.svg";
+import github from "/svg/github.svg";
+import browser from "/svg/browser.svg";
 
 
 function Project() {

@@ -6,11 +6,12 @@ import Layout from "./layout";
 import Project from "./project";
 import Cta from "../src/cta";
 import styles from "../src/components/header/header.module.css";
-import html from "/public/svg/html.svg";
-import css from "/public/svg/css.svg";
-import javascript from "/public/svg/javascript.svg";
-import vue from "/public/svg/vue.svg";
-import reactjs from "/public/svg/reactjs.svg";
+import html from "/svg/html.svg";
+import css from "/svg/css.svg";
+import javascript from "/svg/javascript.svg";
+import vue from "/svg/vue.svg";
+import reactjs from "/svg/reactjs.svg";
+import Footer from "./footer";
 
 function Home() {
   return (
@@ -79,6 +80,7 @@ function Home() {
       <div id="cta-container">
         <Cta />
       </div>
+      <Footer />
     </Layout>
   );
 }
