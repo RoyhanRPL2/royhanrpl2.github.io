@@ -7,7 +7,7 @@ function Blog() {
       <div id={styles["contact-wrap"]}>
         <div className={styles["contact-title-wrap"]}>
           <small className={styles["contact-subtitle"]}>
-            Available Nov. 2023
+            Available Apr. 2024
           </small>
           <h1 className={styles["contact-title"]}>Hire Me!</h1>
           <span className={styles["contact-emoji"]}>👋</span>
@@ -26,7 +26,7 @@ function Blog() {
             <h2 className={styles["contact-cta-item-title"]}>
               <span>📱</span>
               <a href="tel:+628875175662">
-                +62 887 5175 662
+                +62 896 6959 6641
               </a>
             </h2>
           </div>

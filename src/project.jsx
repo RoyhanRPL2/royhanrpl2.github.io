@@ -9,6 +9,10 @@ import calendar from "/svg/calendar.svg";
 import figma from "/svg/figma.svg";
 import github from "/svg/github.svg";
 import browser from "/svg/browser.svg";
+import sancode from "/images/sancode-mockup.png"
+import someshine from "/images/SomeShine.png"
+import northexpo from "/images/Northexpo.png"
+import roracake from "/images/roracake-mockup.png"
 
 
 function Project() {
@@ -26,7 +30,7 @@ function Project() {
         <main>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src={Charizard} alt="Charizard-X.png" border="0" />
+              <img src={someshine} alt="Charizard-X.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
@@ -63,7 +67,7 @@ function Project() {
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src={torterra} alt="torterra.png" border="0" />
+              <img src={northexpo} alt="torterra.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
@@ -100,7 +104,7 @@ function Project() {
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src={arcanine} alt="Arcanine.png" border="0" />
+              <img src={roracake} alt="Arcanine.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
@@ -125,7 +129,7 @@ function Project() {
           </div>
           <div className={styles["project-item"]}>
             <div className={styles["project-item-img-container"]}>
-              <img src={blastoise} alt="Blastoise.png" border="0" />
+              <img src={sancode} alt="Blastoise.png" border="0" />
             </div>
             <div className={styles["project-item-desc"]}>
               <div className={styles["project-title"]}>
